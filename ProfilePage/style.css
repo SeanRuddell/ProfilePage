@@ -1,0 +1,253 @@
+header{
+    width: 100%;
+    height: 80px;
+    background-color: black;
+    color: whitesmoke;
+    font-size:xx-large;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.links{
+    display: flex;
+    color: grey;
+    font-size: large;
+}
+.view{
+    border-top: thin;
+    border-style: groove;
+    font-size: larger;
+    padding: 15px;
+    margin-top: -2px;
+    flex-basis: 100%;
+}
+.side1{
+    display: flex;
+}
+body{
+    margin: 0px;
+}
+.main{
+    display: flex;
+    flex-wrap: wrap;
+    color: black;
+
+}
+.blue{
+    background-color: rgb(21, 162, 180);
+    width: 700px;
+    height: 65px;
+    border-radius: 2px;
+    flex-basis: 100%;
+}
+.pic img{
+    border-radius: 50%;
+    width: 75px;
+    height: 75px;
+    position: absolute;
+    margin-top: 25px;
+    margin-left: 20px;
+}
+.info{
+    flex-basis: 100%;
+    border-top: thin;
+    border-style: groove;
+    background-color: rgb(255, 255, 255);
+    font-family: cursive;
+    width: 695px;
+    padding-top: 20px;
+}
+.info smallimg {
+    width: 10px;
+    height: 15px;
+}
+ul{
+    list-style-type: none;
+}
+.side1 img{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+.side2 img{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+.side1head{
+    background-color: rgb(54, 54, 54);
+    width: 100%;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content:space-evenly;
+    flex-basis: 100%;
+}
+.grey2{
+    background-color: lightgrey;
+    border-radius: 50%;
+    width: 25px;
+    height: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.grey500{
+    background-color: lightgrey;
+    border-radius: 50%;
+    width: 45px;
+    height: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.side2head{
+    background-color: rgb(54, 54, 54);
+    width: 100%;
+    height: 50px;
+    flex-basis: 100%;
+    display: flex;
+    align-items: center;
+    justify-content:space-evenly;
+}
+.side2head h3{
+    color: whitesmoke;
+}
+.side1head h3{
+    color: whitesmoke;
+}
+.mainfont{
+    font-size: large;
+    list-style-type: none;
+}
+button{
+    background: rgb(18, 190, 190);
+    border:solid black;
+    color: whitesmoke;
+    font-size: large;
+    font-family: sans-serif;
+    font-weight: bolder;
+}
+#white{
+    color: whitesmoke;
+    padding: 0px 15px;
+}
+.headtitle{    
+    display: flex;
+    align-items: center;
+    color: whitesmoke;
+}
+.cursive{
+    font-family: cursive;
+    font-size: x-large;
+    font-weight: bold;
+}
+.imgspace{
+    width: 10px;
+    height: 15px;
+    padding-right: 15px;
+}
+.contain{
+    display: flex;
+    justify-content: space-around;
+    padding: 50px 100px;
+}
+.column1{
+    width: 50%;
+}
+.column2{
+    width: 35%;
+}
+.btmheader{
+    background-color: rgb(54, 54, 54);
+    color: whitesmoke;
+    font-size: larger;
+    width: 100%;
+    height: 35px;
+    padding-top: 12px;
+    padding-left: 20px;
+}
+.bottom{
+    display: flex;
+    flex-wrap: wrap;
+    padding-top: 40px;
+}
+.btmmain h3, h4, h5{
+    font-family: cursive;
+    margin: 2px;
+}
+.btmmain{
+    border-top: thin;
+    border-style: groove;
+    padding: 10px 20px;
+    flex-basis: 100%;
+}
+.btmmain h3{
+    font-size: x-large;
+}
+.btmmain h4{
+    font-weight: lighter;
+    color: lightgrey;
+}
+.btmmain h5{
+    font-size: small;
+}
+.info li{
+    margin-top: 12px;
+}
+.row{
+    display: flex;
+    align-items: center;
+    padding: 10px;
+}
+.side1info{
+    border-top: thin;
+    border-style: groove;
+    padding: 15px;
+    flex-basis: 100%;
+}
+.checkno1{
+    position: absolute;
+    padding-left: 350px;
+    padding-top: 10px;
+}
+.side2info{
+    border-top: thin;
+    border-style: groove;
+    font-size: larger;
+    font-weight: 800;
+    flex-basis: 100%;
+}
+.checkno2{
+    position: absolute;
+    padding-left: 350px;
+    padding-top: 90px;
+}
+.row h3{
+    padding-left: 20px;
+}
+.side1info img{
+    padding: 5px;
+}
+.side2info li{
+    display: flex;
+    align-items: center;
+    padding: 15px;
+    padding-left: 32px;
+}
+.side2info ul{
+    padding: 0px;
+}
+.side2info img{
+    margin-right: 25px;
+}
+.side1{
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 40px;
+}
+.side2{
+    display: flex;
+    flex-wrap: wrap;
+}
+
